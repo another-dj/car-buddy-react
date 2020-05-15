@@ -1,9 +1,10 @@
 .darkContainer {
   background-color: rgb(27, 26, 26);
   display: flex;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
   margin: 0;
   height: 100vh;
   background-size: cover;
+  flex-direction: column;
 }
