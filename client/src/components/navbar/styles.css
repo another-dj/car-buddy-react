@@ -4,6 +4,30 @@
 }
 
 .routes {
+  padding: 5px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.closequarters {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.routes button {
+  background: #f4433680;
+  border-radius: 6px;
   color: blanchedalmond;
-  padding: 0px 15px;
+  font-size: 1.35em;
+  border: none;
+  padding: 0.425rem 0.3rem;
+}
+
+.links {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 1.35em;
 }

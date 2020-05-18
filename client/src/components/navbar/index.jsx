@@ -3,33 +3,43 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  let user = true;
-  const [auth, setAuth] = useState(user);
+  const [auth, setAuth] = useState(true);
 
-  
-  const signOutHandler = (user) => {
-    setAuth(!user);
+  const signOutHandler = () => {
+    setAuth(!auth);
   };
-  useEffect(() => {
-  }, [auth]);
+
+  const logInHandler = () => {};
+
+  useEffect(() => {}, [auth]);
 
   return (
     <div className="navbar">
-      <div className="routes">
-        {user ? (
-          <div>
-            <Link to="/">Home</Link>
-            <Link to="/garage">Garage</Link>
-            <Link to="/profile">Profile</Link>
+      {auth ? (
+        <div className="routes">
+          <Link className="links" to="/">
+            Home
+          </Link>
+          <Link className="links" to="/garage">
+            Garage
+          </Link>
+          <div className="closequarters">
+            <Link className="links" to="/profile">
+              Profile
+            </Link>
             <button onClick={signOutHandler}>Log Out</button>
           </div>
-        ) : (
-          <div>
-            <Link to="/login">Log In</Link>
-            <Link to="/register">Register</Link>
-          </div>
-        )}
-      </div>
+        </div>
+      ) : (
+        <div className="routes">
+          <Link className="links" to="/login">
+            Log In
+          </Link>
+          <Link className="links" to="/register">
+            Register
+          </Link>
+        </div>
+      )}
     </div>
   );
 }
