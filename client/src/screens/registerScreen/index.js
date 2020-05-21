@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./styles.css";
 
 const Screen = () => {
   const [name, setName] = useState("");

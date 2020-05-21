@@ -1,0 +1,14 @@
+.garage {
+  width: 100%;
+}
+
+.footerButton {
+  background-color: white;
+}
+
+.cards {
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}

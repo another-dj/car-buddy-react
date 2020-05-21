@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid rgb(173, 133, 140);
+  width: 270px;
+  height: 270px;
+  border-radius: 18px;
+  margin: 30px;
+}
+
+.carName {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: #343a40;
+
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
