@@ -6,7 +6,7 @@ import "./styles.css";
 const Screen = () => {
   const cars = [
     {
-      name: "ferrari",
+      name: "Alexis=Gay",
       img:
         "https://res.cloudinary.com/dt2evehg4/image/upload/v1574941556/carBudy-pics/caravatar_mkcbm2.png",
     },
@@ -61,9 +61,9 @@ const Screen = () => {
           return <CarCard name={car.name} img={car.img} />;
         })}
       </div>
-      <div className="">
+      <div className="footer">
         <Link className="footerButton" to="/createCar">
-          Add new Car
+          Add New Car
         </Link>
       </div>
     </div>

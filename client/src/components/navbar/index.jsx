@@ -20,7 +20,7 @@ function Navbar() {
           <Link className="links" to="/">
             Home
           </Link>
-          <Link className="links" to="/garage">
+          <Link className="links center" to="/garage">
             Garage
           </Link>
           <div className="closequarters">

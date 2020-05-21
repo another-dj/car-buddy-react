@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./styles.css";
 
+const Screen = () => {
+  return <div></div>;
+};
 
-export default function index() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+export default Screen;

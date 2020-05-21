@@ -11,14 +11,16 @@
 .carName {
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   background-color: #343a40;
-
+  font-size: 1.5em;
   overflow: hidden;
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  font-weight: bold;
 }
 
 img {

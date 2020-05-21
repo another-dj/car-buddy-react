@@ -1,14 +1,40 @@
 .garage {
   width: 100%;
+  background-color: rgb(27, 26, 26);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: blanchedalmond;
+}
+
+.footer {
+  background-color: #343a40;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 
 .footerButton {
-  background-color: white;
+  font-family: sans-serif;
+  color: blanchedalmond;
+  background-color: rgb(41, 23, 88);
+  text-decoration: none;
+  padding: 0.3rem 0.425rem;
+  border-radius: 10px;
+  font-size: 1.35em;
 }
 
 .cards {
   width: inherit;
   display: flex;
   flex-wrap: wrap-reverse;
-
+  justify-content: space-evenly;
 }
+
