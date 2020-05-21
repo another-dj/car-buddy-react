@@ -11,6 +11,7 @@ import UpdateKmsScreen from "./screens/updateKmsScreen";
 import EditCarScreen from "./screens/editCarScreen";
 import GarageScreen from "./screens/garageScreen";
 import CreateCarScreen from "./screens/createCarScreen";
+import CarDetailsScreen from "./screens/carDetailsScreen";
 
 import Navbar from "./components/navbar";
 
@@ -21,15 +22,13 @@ function App() {
     <BrowserRouter>
       <div className="darkContainer">
         <Navbar />
+
         <Switch>
-          <Route path="/register">
-            <RegisterScreen />
-          </Route>
+          <Route path="/register" component={RegisterScreen} />
 
           <Route path="/login">
             <LoginScreen />
           </Route>
-
           <Route path="/profile">
             <ProfileScreen />
           </Route>
@@ -49,7 +48,9 @@ function App() {
           <Route path="/editCar">
             <EditCarScreen />
           </Route>
-          
+
+          <Route path="/garage/:id" component={CarDetailsScreen} />
+
           <Route path="/garage">
             <GarageScreen />
           </Route>
@@ -57,7 +58,6 @@ function App() {
           <Route path="/serviceStations">
             <ServiceStationsScreen />
           </Route>
-
 
           <Route path="/">
             <HomeScreen />

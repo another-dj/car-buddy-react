@@ -1,0 +1,11 @@
+.theGreatBox {
+  border: 5px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+.topDetails {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+}
