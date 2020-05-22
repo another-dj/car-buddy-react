@@ -1,11 +1,37 @@
 .theGreatBox {
+  color: white;
   border: 5px solid green;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
+  width: 95%;
+  height: 95%;
 }
 
 .topDetails {
   display: flex;
   flex-direction: row;
   border: 2px solid blue;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+
+.scrollDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.drawer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  padding: 1.4em;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
 }

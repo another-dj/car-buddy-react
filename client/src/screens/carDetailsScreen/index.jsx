@@ -24,7 +24,7 @@ const Screen = () => {
 
       <div className="splitScreen">
         <div className="theCar">
-          <img src={CarImg} alt="" />
+          <img className="thePicture" src={CarImg} alt="" />
         </div>
         <div className="theBox">
           <DetailBox

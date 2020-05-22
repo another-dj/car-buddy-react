@@ -26,42 +26,25 @@ function App() {
         <Switch>
           <Route path="/register" component={RegisterScreen} />
 
-          <Route path="/login">
-            <LoginScreen />
-          </Route>
-          <Route path="/profile">
-            <ProfileScreen />
-          </Route>
+          <Route path="/login" component={LoginScreen} />
 
-          <Route path="/editProfile">
-            <EditProfileScreen />
-          </Route>
+          <Route path="/profile" component={ProfileScreen} />
 
-          <Route path="/createCar">
-            <CreateCarScreen />
-          </Route>
+          <Route path="/editProfile" component={EditProfileScreen} />
 
-          <Route path="/updateKms">
-            <UpdateKmsScreen />
-          </Route>
+          <Route path="/createCar" component={CreateCarScreen} />
 
-          <Route path="/editCar">
-            <EditCarScreen />
-          </Route>
+          <Route path="/updateKms" component={UpdateKmsScreen} />
+
+          <Route path="/editCar" component={EditCarScreen} />
 
           <Route path="/garage/:id" component={CarDetailsScreen} />
 
-          <Route path="/garage">
-            <GarageScreen />
-          </Route>
+          <Route path="/garage" component={GarageScreen} />
 
-          <Route path="/serviceStations">
-            <ServiceStationsScreen />
-          </Route>
+          <Route path="/serviceStations" component={ServiceStationsScreen} />
 
-          <Route path="/">
-            <HomeScreen />
-          </Route>
+          <Route path="/" component={HomeScreen} />
         </Switch>
       </div>
     </BrowserRouter>

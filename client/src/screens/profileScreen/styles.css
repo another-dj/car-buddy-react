@@ -1,0 +1,18 @@
+.userName {
+  color: aliceblue;
+}
+
+.editButtons {
+  color: aqua;
+}
+
+.editButtons button {
+  border-radius: 10px;
+}
+
+.theProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
