@@ -25,25 +25,15 @@ function App() {
 
         <Switch>
           <Route path="/register" component={RegisterScreen} />
-
           <Route path="/login" component={LoginScreen} />
-
           <Route path="/profile" component={ProfileScreen} />
-
           <Route path="/editProfile" component={EditProfileScreen} />
-
           <Route path="/createCar" component={CreateCarScreen} />
-
           <Route path="/updateKms" component={UpdateKmsScreen} />
-
           <Route path="/editCar" component={EditCarScreen} />
-
           <Route path="/garage/:id" component={CarDetailsScreen} />
-
           <Route path="/garage" component={GarageScreen} />
-
           <Route path="/serviceStations" component={ServiceStationsScreen} />
-
           <Route path="/" component={HomeScreen} />
         </Switch>
       </div>

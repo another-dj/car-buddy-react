@@ -18,12 +18,25 @@ const DetailBox = ({
       </div>
       <div className="scrollDetails">
         <div className="drawer">
-          Oil:{oil} alert-message <button className="buton">Reset</button>
+          <div>Oil:{oil}</div> <div>alert-message</div>
+          <button className="buton">Reset</button>
         </div>
-        <div className="drawer"> Tyres: {tyres}</div>
-        <div className="drawer"> Air Filter: {airFilter}</div>
-        <div className="drawer"> Brakes: {brakes}</div>
-        <div className="drawer"> Coolant: {coolant}</div>
+        <div className="drawer">
+          <div>Tyres: {tyres}</div>
+          <div>alert-message</div> <button className="buton">Reset</button>
+        </div>
+        <div className="drawer">
+          <div>Air Filter: {airFilter}</div> <div>alert-message</div>
+          <button className="buton">Reset</button>
+        </div>
+        <div className="drawer">
+          <div>Brakes: {brakes}</div> <div>alert-message</div>
+          <button className="buton">Reset</button>
+        </div>
+        <div className="drawer">
+          <div>Coolant: {coolant}</div> <div>alert-message</div>
+          <button className="buton">Reset</button>
+        </div>
       </div>
     </div>
   );

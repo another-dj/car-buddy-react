@@ -11,6 +11,7 @@ const Screen = () => {
     airFilter: 100,
     brakes: 100,
     coolant: 100,
+    oil: 100,
     id: 1,
     fuelType: "gas",
     img:
@@ -23,9 +24,7 @@ const Screen = () => {
       </div>
 
       <div className="splitScreen">
-        <div className="theCar">
-          <img className="thePicture" src={CarImg} alt="" />
-        </div>
+        <div className="theCar"></div>
         <div className="theBox">
           <DetailBox
             kms={car.km}
@@ -34,6 +33,7 @@ const Screen = () => {
             brakes={car.brakes}
             coolant={car.coolant}
             fuelType={car.fuelType}
+            oil={car.oil}
           />
         </div>
       </div>
